@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img {
+    height: 40px;
+    width: 40px;
+}
+
+.bottom {
+    height: 65px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.bottom input {
+    width: 80vw;
+    margin-top: 10px;
+    cursor: pointer;
+    accent-color: rgb(255, 152, 115);
+
+}
+
+
+
+
+.icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    bottom: 10px;
+
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+
+
+.songInfo span {
+    font-family: "varela round";
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+
+.content {
+    background-color: black;
+    height: 74vh;
+    width: 80vw;
+    margin: 20px auto;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.songList {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.songList h1 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Varela round";
+    margin-bottom: 5px;
+
+}
+
+
+.songItem {
+    height: 35px;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+}
+
+.songItem img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.songItem span {
+    padding-right: 5px;
+    font-family: "varela round";
+}
+
+.songlistPlay i {
+    cursor: pointer;
+}
